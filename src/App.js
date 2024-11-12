@@ -3,6 +3,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import AboutUs from './components/AboutUs';
 import Enrollment from './components/Enrollment';
+import EnrollmentForm from './components/EnrollmentForm';  // Import the new form
 import Curriculum from './components/Curriculum';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
@@ -15,7 +16,9 @@ function App() {
       <HeroSection />
       <AboutUs />
       <Curriculum />
-      <Enrollment />
+      {/* <Enrollment />
+       */}
+       <EnrollmentForm />
       <ContactUs />
       <Footer />
     </div>
