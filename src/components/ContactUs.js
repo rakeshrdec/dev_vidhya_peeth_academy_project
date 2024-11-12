@@ -14,7 +14,7 @@ function ContactUs() {
         <label>Message</label>
         <textarea placeholder="Your Message" required></textarea>
         
-        <button type="submit" onClick={alert("Your Message sent Successfully .. shortly from the team someone will connect")}>Send Message</button>
+        <button type="submit" >Send Message</button>
       </form>
     </section>
   );
