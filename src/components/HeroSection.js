@@ -1,5 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
+import school1 from '../images/school1.jpg';
+import school2 from '../images/school2.jpg';
+import school3 from '../images/school3.jpg';
 
 function HeroSection() {
   const settings = {
@@ -17,13 +20,13 @@ function HeroSection() {
       {/* <Slider {...settings}> */}
         <div>
         <div>
-          <img src="images/school1.jpg" alt="School Image 1" />
+          <img src={school1} alt="School Image 1" />
         </div>
         <div>
-          <img src="images/school2.jpg" alt="School Image 2" />
+          <img src={school2} alt="School Image 2" />
         </div>
         <div>
-          <img src="images/school3.jpg" alt="School Image 3" />
+          <img src={school3} alt="School Image 3" />
         </div>
         </div>
       {/* </Slider> */}

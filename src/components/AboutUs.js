@@ -17,11 +17,11 @@ function AboutUs() {
       </div>
       <div className="about-cards">
         <div className="card">
-          <h3>Mission</h3>
-          <p>Our mission is to provide a holistic learning experience...</p>
+          <h3>Mission2</h3>
+          <p>Our mission is to provide a holistic learning experience....</p>
         </div>
         <div className="card">
-          <h3>Vision</h3>
+          <h3>Vision2</h3>
           <p>Our vision is to foster creativity, critical thinking, and confidence in every child...</p>
         </div>
       </div>
