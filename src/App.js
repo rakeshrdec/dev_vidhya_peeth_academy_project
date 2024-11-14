@@ -7,14 +7,18 @@ import EnrollmentForm from './components/EnrollmentForm';  // Import the new for
 import Curriculum from './components/Curriculum';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import Popup from './components/PopUp';
+import ChairmansMessage from './components/ChairmanMessage';
 import './styles.css';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      {/* <Popup /> */}
       <HeroSection />
       <AboutUs />
+      {/* <ChairmansMessage /> */}
       <Curriculum />
       {/* <Enrollment />
        */}
