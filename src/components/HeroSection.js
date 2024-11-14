@@ -16,7 +16,7 @@ function HeroSection() {
   return (
     <section className="hero-section">
       <h1>Welcome to Dev Vidhya Peeth Academy</h1>
-      <p>A Place Where Every Student Shines!</p>
+      <p>A Place Where Every Student Shines!Test</p>
       {/* <Slider {...settings}> */}
         <div>
         <div>
