@@ -1,0 +1,108 @@
+/* src/ChairmansMessage.css */
+.chairman-message {
+    background: linear-gradient(135deg, #f7b7a3, #f09d6d); /* Gradient background */
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    opacity: 0; /* Initially hidden */
+    transform: translateY(50px); /* Initially lower */
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  }
+  
+  .chairman-message.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .message-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .chairman-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    animation: slideIn 1s ease-out; /* Smooth animation */
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .chairman-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Smooth image scaling on hover */
+  }
+  
+  .chairman-image.show {
+    transform: scale(1.05); /* Slight zoom effect when visible */
+  }
+  
+  .chairman-image:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
+  
+  .message-content {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .chairman-name {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .chairman-text {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    color: #fdfdfd;
+    line-height: 1.7;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .chairman-message.visible .chairman-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .chairman-text p {
+    margin-bottom: 20px;
+  }
+  
