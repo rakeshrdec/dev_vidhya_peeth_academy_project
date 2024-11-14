@@ -14,7 +14,7 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://rakeshrdec.github.io/dev_vidhya_peeth_academy_project/",
+  "homepage": "https://rakeshrdec.github.io/dev_vidhya_peeth_academy_project/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
