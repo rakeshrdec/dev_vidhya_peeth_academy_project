@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/dev_vidhya_peeth_academy_project/static/css/main.9150c39a.css",
-    "main.js": "/dev_vidhya_peeth_academy_project/static/js/main.c3169098.js",
+    "main.js": "/dev_vidhya_peeth_academy_project/static/js/main.2313d5e1.js",
     "static/js/453.0965c5c6.chunk.js": "/dev_vidhya_peeth_academy_project/static/js/453.0965c5c6.chunk.js",
     "static/media/school2.jpg": "/dev_vidhya_peeth_academy_project/static/media/school2.5be06961bf16aa400757.jpg",
     "static/media/school1.jpg": "/dev_vidhya_peeth_academy_project/static/media/school1.201bce64bcab5fd7d29b.jpg",
     "static/media/school3.jpg": "/dev_vidhya_peeth_academy_project/static/media/school3.b411693c874dda62611b.jpg",
     "index.html": "/dev_vidhya_peeth_academy_project/index.html",
     "main.9150c39a.css.map": "/dev_vidhya_peeth_academy_project/static/css/main.9150c39a.css.map",
-    "main.c3169098.js.map": "/dev_vidhya_peeth_academy_project/static/js/main.c3169098.js.map",
+    "main.2313d5e1.js.map": "/dev_vidhya_peeth_academy_project/static/js/main.2313d5e1.js.map",
     "453.0965c5c6.chunk.js.map": "/dev_vidhya_peeth_academy_project/static/js/453.0965c5c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9150c39a.css",
-    "static/js/main.c3169098.js"
+    "static/js/main.2313d5e1.js"
   ]
 }
