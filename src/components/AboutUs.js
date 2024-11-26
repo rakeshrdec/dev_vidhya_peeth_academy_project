@@ -8,7 +8,7 @@ function AboutUs() {
       <div className="about-cards">
         <div className="card">
           <h3>Mission</h3>
-          <p>Our mission is to provide a holistic learning experience...</p>
+          <p>Our mission is to provide a holistic learning experience..</p>
         </div>
         <div className="card">
           <h3>Vision</h3>
